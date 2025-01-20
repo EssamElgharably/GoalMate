@@ -1,4 +1,3 @@
-/* Progress Bar Styles */
 .progress-bar {
     background-color: #ddd;
     height: 20px;
@@ -21,7 +20,6 @@
     margin-bottom: 10px;
 }
 
-/* Goal Container */
 .goal {
     margin-bottom: 40px;
 }
@@ -32,7 +30,6 @@
     margin-bottom: 10px;
 }
 
-/* Milestone List */
 .milestone-list {
     list-style: none;
     padding: 0;
