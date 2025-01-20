@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoalMate - Progress Tracking</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/milestones.css">
+</head>
+<body>
+    <header>
+        <h1>GoalMate</h1>
+        <nav>
+            <a href="../index.html">Create Goal</a>
+            <a href="milestones.html">Milestones</a>
+            <a href="overview.html">Overview</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Track Your Progress</h2>
+
+        <!-- Progress Bar and Milestones for Fitness Goal -->
+        <div class="goal">
+            <h3>Fitness Challenge</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 0%;"></div>
+            </div>
+            <p class="progress-percentage">0% Completed</p>
+
+            <ul class="milestone-list">
+                <li>
+                    <input type="checkbox" class="milestone" data-goal="0" value="25">
+                    <label>Complete Week 1 Fitness Plan</label>
+                </li>
+                <li>
+                    <input type="checkbox" class="milestone" data-goal="0" value="25">
+                    <label>Complete Week 2 Fitness Plan</label>
+                </li>
+                <li>
+                    <input type="checkbox" class="milestone" data-goal="0" value="25">
+                    <label>Run 5K Without Stopping</label>
+                </li>
+                <li>
+                    <input type="checkbox" class="milestone" data-goal="0" value="25">
+                    <label>Complete a Full Body Workout</label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Progress Bar and Milestones for Career Goal -->
+        <div class="goal">
+            <h3>Career Development</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 0%;"></div>
+            </div>
+            <p class="progress-percentage">0% Completed</p>
+
+            <ul class="milestone-list">
+                <li>
+                    <input type="checkbox" class="milestone" data-goal="1" value="33">
+                    <label>Submit Resume to 3 Companies</label>
+                </li>
+                <li>
+                    <input type="checkbox" class="milestone" data-goal="1" value="33">
+                    <label>Attend a Networking Event</label>
+                </li>
+                <li>
+                    <input type="checkbox" class="milestone" data-goal="1" value="34">
+                    <label>Complete a Leadership Course</label>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
