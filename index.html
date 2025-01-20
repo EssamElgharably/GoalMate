@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoalMate</title>
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+    <header>
+        <h1>GoalMate</h1>
+        <nav>
+            <a href="index.html">Create Goals</a>
+            <a href="pages/milestones.html">My Milestones</a>
+            <a href="pages/overview.html">Overview</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="title">Create Your Goal</h1><br>
+            <form action="#" method="POST" class="goal-form">
+                <label for="goal-title" class="form-label">Goal Title:</label>
+                <input type="text" id="goal-title" name="goal-title" class="form-input" required placeholder="Enter your goal title">
+                
+                <label for="goal-category" class="form-label">Goal Category:</label>
+                <select id="goal-category" name="goal-category" class="form-input" required>
+                    <option value="fitness">Fitness</option>
+                    <option value="career">Career</option>
+                    <option value="mental-health">Mental Health</option>
+                    <option value="learning">Learning</option>
+                </select>
+                
+                <button type="submit" class="submit-button">Add Goal</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+</body>
+</html>
